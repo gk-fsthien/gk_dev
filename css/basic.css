@@ -1,0 +1,392 @@
+.navbar {
+	margin-bottom: 0px;
+}
+
+/* body{margin-top:20px;} */
+.fa-fw {
+	width: 2em;
+	padding-right:1em;
+}
+
+.padding-right25 {
+	padding-right: 25px;
+}
+
+.container.right-nav {
+	width: 100%;
+	height:100%;
+}
+
+.top10 {
+	margin-top: 10px;
+}
+
+.container, .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.btn.fullspan {
+	color:#fff;
+	width: 100%;
+	height: 100%;
+}
+
+.numberCell{
+   	text-align: right;
+}
+
+.alt-rows .webix_cell:nth-child(2n){
+	background-color:#f8f7f1;
+}
+
+.alt-rows .webix_row_select:nth-child(2n){
+/* 	background-color:#27ae60; */
+	background: -moz-linear-gradient(#ffebc2,#ffdb8f);
+	background: -webkit-linear-gradient(#ffebc2,#ffdb8f)
+}
+
+.spinner {    
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../images/spinner.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	display: block;
+}
+
+.webix_modal_box .webix_popup_controls .webix_popup_button {
+	height: 30px;	
+}
+
+.col-header-center {
+	text-align: center;
+}
+
+.navbar-brand>img {
+  	height: 25px;
+  	width: 25px;
+  	display:inline;
+}
+
+.navbar-brand {
+	padding: 9px 15px;	
+}
+
+.dropdown-menu > li > a {
+	color: #777;
+}
+
+/* .dropdown-menu > li > a {
+	color: #3097D1;
+} */
+
+/* .dropdown-menu > li > a:hover {
+	color: #216a94;
+} */
+
+.mini-toggle {
+	width: 20px;
+	height: 20px;
+	padding-top: 4px;	
+	border-radius: 5px;
+	background-color: #b2b2b4;
+	padding-left: 5px;
+}
+
+.hide-sidebar {
+	width: 20px;
+	height: 20px;
+	padding-top: 4px;	
+	border-radius: 5px;
+	background-color: darkblue;
+	padding-left: 4px;	
+}
+
+.autowidth {
+     width: 100%;     
+}
+
+.webix_hcell, .webix_column{
+	font-size:12px;
+}
+
+.highlight{
+	background-color:#FFAAAA !important;
+}
+
+/* Refine height of Input filter in datatable header */
+.webix_ss_filter input, .webix_ss_filter select {
+	height: 24px;
+	margin-top: 1px;
+}
+
+.header-information {
+	margin-bottom: 3em;
+}
+
+/* Icon color */
+.webix_icon.fa-save {
+	color: #0062cc;
+}
+
+.webix_icon.fa-times {
+	color: #d43f3a;
+}
+
+.webix_icon.fa-check {
+	color: #4cae4c;
+}
+
+.webix_icon.fa-eraser {
+	color: #FF0000;
+}
+
+.webix_icon.fa-check-square-o {
+	color: #337ab7;
+}
+
+/* Quotation awarded quantity validation */
+.invalid-quantity {
+	background-color:#FFAAAA;
+}
+
+.header-blue {
+	background-color: skyblue;
+	padding-left: 5px;
+	font-weight: 700;
+}
+
+.warning-body {
+	background-color: #FBEED5;
+}
+
+.text-warning {
+	font-weight: 700;
+	color: rgb(192, 152, 83) !important;
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+/* End */
+
+/* Header align center */
+.align-center{
+	text-align: center;
+}
+
+.cell-align-right {
+	text-align: right;
+	width: 100%;
+	display: block;
+	color: blue;
+}
+
+/* Table header multi-line */
+.multiline{
+  	line-height: 20px !important;
+  	text-align: center;
+}
+
+.rank .webix_cell, .rank.webix_hcell {
+	text-align:center;
+}
+/* End Table header multi-line */
+
+.comparison-group {
+	background-color:#d5d5ff!important;
+}
+
+.comparison-group-set {
+	background-color:#b9b9ff!important;
+}
+
+.price-highlight, .webix_column > div.price-highlight.webix_row_select {
+	background-color: #a0ffa8 !important;
+}
+
+.toolbar-label {
+	font-weight: 700 !important;
+}
+
+.action-warning button {
+	background-color: #ff5b5b!important;
+	border-color: #ff5b5b!important;
+}
+
+.serv-charge {
+	color: red;
+	font-weight: bold;
+}
+
+.serv-charge-cell {
+	background-color: #e9cf9e;
+	text-align:center;
+}
+
+.webix_layout_toolbar.webix_toolbar.reminder-header {
+	background-color: #fd5d63;
+	font-weight: bold;
+}
+
+.webix_el_text.editable-input input, .webix_el_combo.editable-input input, .webix_el_textarea.editable-input textarea {
+	background: #ffffe6;
+}
+
+body {
+	width:99.5%;
+	margin: auto !important;
+	overflow-x:hidden;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0px;
+  background-color: #e8e8e8;
+  text-align: center;
+}
+
+.pdfbutton {
+	cursor:pointer;
+	font-size:19px;
+	color:red;
+}
+.webix_column>div.webix_cell_select, .webix_column>div.webix_column_select, .webix_column>div.webix_row_select {
+	color:black !important;
+}
+.highlight {
+	color:red !important;
+}
+  
+.highlight1 {
+	background-color:#c7fc92 !important;
+} 
+
+.highlight2{
+  	color:#42d1f4 !important;
+}
+
+.completed{
+	background-color:#B9FF91 !important;
+}
+
+.pending {
+	background-color:#FDFF99 !important;
+}
+
+.alt-rows .pending div.webix_cell:nth-child(2n)  {
+	background-color:#FDFF99 !important;
+}
+
+.alt-rows .pending div.webix_cell.webix_row_select{
+/* 	background-color:#27ae60; */
+	background: -moz-linear-gradient(#ffebc2,#ffdb8f) !important;
+	background: -webkit-linear-gradient(#ffebc2,#ffdb8f) !important;
+}
+
+.warning{
+	color:red !important;
+}
+
+.lightyellow{
+	background-color:#FBFE8A !important;
+}
+
+.pink{
+	background-color:#FDCEF4 !important;
+}
+
+.lightblue{
+	background-color:#8BFFF8 !important;
+}
+
+.lightblueword{
+	color:#8BFFF8 !important;
+}
+
+.lightyellowword{
+	color:#FBFE8A !important;
+}
+
+.pinkword{
+	color:#FDCEF4 !important;
+}
+
+.cancel{
+	background-color:#f9a2a2 !important;
+	color:white !important;
+}
+
+.cancelword{
+	color:#f9a2a2 !important;
+}
+  
+.myClass {
+    font-size: 20px !important;
+    font-weight: bold !important;
+	margin-left:10px !important;
+}
+
+.fontbold {
+    font-weight: bold !important;
+	font-align:left !important;
+}
+
+.grey {
+    background-color:#8BFFF8 !important;
+}
+.webix_cal_row{
+	height:22px !important;    
+	line-height: 22px !important;
+}
+
+.pointer {
+	cursor:pointer;
+}
+
+.outstanding-item {
+    background-color:#ff8c55!important;
+    color:white !important;
+}
+
+.custom-textarea textarea{
+	height: 95%;
+}
+
+.cancelled-info-header {
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	background-color:  #ff8080;
+	margin-bottom: 5px;
+}
+
+.webix_view.webix_control.webix_el_button.outstanding-identical-items .webixtype_base {
+	background-color: #fd5d63; 
+	border-color: transparent;
+}
+
+.webix_cal_body .webix_cal_row {
+	clear:none; 
+}
+
+.alt-part-data {
+	background-color:#cefff8 !important;
+}
